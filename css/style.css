@@ -130,6 +130,36 @@ a {
 .y-c {
     align-items: center;
 }
+
+.btn {
+    padding: 8px 32pt;
+    color: #333;
+    border: 30px;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.btn-primary {
+    background-color: #333;
+    color: white;
+    font-weight: 500;
+    margin-right: 1em;
+    line-height: 41px;
+}
+.btn-play {
+    align-items: center;
+    padding: 0;
+    font-weight: 500;
+
+}
+
+#play-btn {
+    width: 60px;
+    height: 60px;
+    margin: 0 1em;
+
+}
+
 /* end global styles  */
 #logo {
     margin: 0;
@@ -142,4 +172,49 @@ a {
 nav a {
     margin: 0 1em;
 }
+
+.hero-copy  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+    }
 /* end mainstyle */
+
+ .image {
+    height: 700px;
+    width: 700px;
+    background-color: blueviolet;
+    -webkit-mask-image: url(/assets/icons/blob.svg);
+    mask-image: url(/assets/icons/blob.svg);
+}
+.image-mask {
+    background: url(https://images.unsplash.com/photo-1673423050335-43b991cf57e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80) 50% 0; 
+    background-size: cover;
+}
+.icon {
+    height: 750px;
+    width: 750px;
+    background-color: red;
+    -webkit-mask-image: url(/assets/icons/blob.svg);
+    mask-image: url(/assets/icons/blob.svg);
+} 
+.hero-copy  h4 {
+    display: flex;
+    align-items: center;
+}
+.hero-copy hr {
+width: 20px;
+margin-right: 0.3em;
+height: 4px;
+background-color: #333;
+}
+/* .image {
+    clip-path: circle(50% at 50% 50%);
+    width: 500px;
+    height: 750px;
+    margin: 0 auto;
+    width: 66%;
+} */
