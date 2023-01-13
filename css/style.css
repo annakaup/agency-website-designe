@@ -130,6 +130,19 @@ a {
 .y-c {
     align-items: center;
 }
+.btn-group {
+    margin: 2em 0;
+
+}
+.m2 {
+    padding: 4em 0 2em;
+}
+
+.btn-outline {
+    border: 2px solid rgb(22 22 22);
+    font-weight: 500;
+
+}
 
 .btn {
     padding: 8px 32pt;
@@ -173,6 +186,9 @@ nav a {
     margin: 0 1em;
 }
 
+.hero {
+    background: linear-gradient(90deg, #00c9ff30 0%, #92fe9d75 100%);
+}
 .hero-copy  {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -211,6 +227,7 @@ margin-right: 0.3em;
 height: 4px;
 background-color: #333;
 }
+
 /* .image {
     clip-path: circle(50% at 50% 50%);
     width: 500px;
